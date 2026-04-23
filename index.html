@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Srijithesh Shanmugam ✦ Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" type="image/png" href="image/fav.png" sizes="32x32" >
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Syne:wght@500;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <nav class="nav" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="image/img.png" alt="Logo" class="nav-logo-img" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero"class="nav-link">Home</a></li>
+        <li><a href="#about"class="nav-link">About</a></li>
+        <li><a href="#experience"class="nav-link">Work Experience</a></li>
+       <!-- <li><a href="#projects"class="nav-link">Projects</a></li> -->
+        <li><a href="#ux-case-studies"class="nav-link">Case Studies</a></li>
+        <li><a href="#education"class="nav-link">Education</a></li>
+        <li><a href="#contact"class="nav-link">Contact Us</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon sun">☀️</span>
+          <span class="theme-icon moon">🌙</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="hero">
+    <canvas id="three-canvas"></canvas>
+
+    <div class="hero-content">
+      <div class="hero-badge">✦ Product Designer · UI · UX Strategist ✦</div>
+      <h1 class="hero-name">
+        <span class="name-line">SRIJITHESH</span>
+        <span class="name-line outline">SHANMUGAM</span>
+      </h1>
+      <p class="hero-subtitle">4+ years crafting AI-driven platforms, enterprise dashboards &amp; B2B systems across India &amp; UAE</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="resume/Srijithesh Resume.pdf" class="btn btn-outline" download>Download Resume ↓</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Years Exp.</span></div>
+      <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Products</span></div>
+      <div class="stat"><span class="stat-num">2</span><span class="stat-label">Countries</span></div>
+    </div>
+
+    <!--<div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>-->
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label reveal-label">01 / About</div>
+      <h2 class="section-title reveal-title">Crafting Digital<br/><em>Experiences</em></h2>
+      <div class="about-grid">
+        <div class="about-bio reveal reveal-left">
+          <p class="about-text">SaaS Product Designer specializing in end-to-end product design — from user research to developer handoff. Strong focus on <strong>data visualization</strong>, <strong>design systems</strong>, and <strong>conversion optimization</strong> for global enterprise teams.</p>
+          <p class="about-text">Based in <strong>Chennai, India</strong>, delivering scalable design solutions across sustainability, ERP, and marketplace domains with clients across India and the UAE.</p>
+          <div class="about-links">
+            <!-- <a href="https://www.behance.net/jithujithesh1" target="_blank" class="social-link">Behance ↗</a> -->
+            <a href="https://www.linkedin.com/in/srijitheshs-uxd" target="_blank" class="social-link">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="about-skills reveal reveal-right">
+          <h3 class="skills-label">Core Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-item">End-to-End Product Design</div>
+            <div class="skill-item">SaaS &amp; Enterprise B2B UX</div>
+            <div class="skill-item">Information Architecture</div>
+            <div class="skill-item">High-Fidelity Prototyping</div>
+            <div class="skill-item">Design Systems</div>
+            <div class="skill-item">Data Visualization</div>
+            <div class="skill-item">Jira / Scrum Workflows</div>
+            <div class="skill-item">Branding &amp; Marketing</div>
+          </div>
+          <h3 class="skills-label" style="margin-top:2rem;">Tools</h3>
+          <div class="tools-row">
+            <span class="tool-tag">Figma</span>
+            <span class="tool-tag">Sketch</span>
+            <span class="tool-tag">Miro</span>
+            <span class="tool-tag">Jira</span>
+            <span class="tool-tag">InVision</span>
+            <span class="tool-tag">Adobe Illustrator</span>
+            <span class="tool-tag">HTML / CSS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Floating 3D CSS decoration -->
+    <div class="section-deco deco-cube"></div>
+  </section>
+
+  <!-- ============================================================
+       WORK EXPERIENCE
+       ============================================================ -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-label reveal-label">02 / Work Experience</div>
+      <h2 class="section-title reveal-title">Professional<br/><em>Journey</em></h2>
+      <div class="timeline">
+
+        <!-- Net Carbon Vision -->
+        <div class="timeline-item reveal" data-exp="0">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card ripple-host">
+            <div class="timeline-header">
+              <div>
+                <h3 class="company-name">Net Carbon Vision</h3>
+                <p class="job-title">Product Designer | UX/UI Designer</p>
+              </div>
+              <span class="timeline-date">Mar 2025 - Present</span>
+            </div>
+            <div class="timeline-projects">
+              <div class="exp-project" data-subexp="0">
+                <h4>🌿 SustainOS : AI Carbon Emissions</h4>
+                <p>Led end-to-end UX for a multi-tenant enterprise SaaS platform enabling organizations to monitor and report carbon emissions. Built scalable interaction design systems and delivered developer-ready Figma prototypes with annotations.</p>
+              </div>
+              <div class="exp-project" data-subexp="1">
+                <h4>📱 SustainOS Pockets : Mobile App</h4>
+                <p>Designed mobile-first dashboards for field teams with real-time emissions data. Introduced chatbot-driven workflows, reducing desktop dependency for distributed operational teams.</p>
+              </div>
+              <div class="exp-project" data-subexp="2">
+                <h4>🌐 NCV &amp; TWG Corporate Websites</h4>
+                <p>Conversion-focused AI sustainability platform website + enterprise-grade investment platform for Dubai/UAE market with structured information architecture and user trust optimization.</p>
+              </div>
+            </div>
+            <div class="card-cta" style="margin-top:1.2rem;font-size:0.85rem;opacity:0.7;">View Details →</div>
+          </div>
+        </div>
+
+        <!-- Coda Technology -->
+        <div class="timeline-item reveal" data-exp="1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card ripple-host">
+            <div class="timeline-header">
+              <div>
+                <h3 class="company-name">Coda Technology Solutions</h3>
+                <p class="job-title">Product Designer | UX/UI Designer</p>
+              </div>
+              <span class="timeline-date">Feb 2022 — Mar 2025</span>
+            </div>
+            <div class="timeline-projects">
+              <div class="exp-project" data-subexp="3">
+                <h4>⚙️ Prosol : Master Data Management SaaS</h4>
+                <p>Led full UX lifecycle for ERP-style platform. Built component-based design system, designed asset management dashboards, procurement workflows, and BOM systems with pixel-perfect engineering collaboration.</p>
+              </div>
+              <div class="exp-project" data-subexp="4">
+                <h4>🏭 Goospares : B2B Industrial Marketplace</h4>
+                <p>Designed complete buyer/seller journeys, product discovery, and transaction flows. Improved search efficiency and trust signals for industrial equipment procurement.</p>
+              </div>
+              <div class="exp-project" data-subexp="5">
+                <h4>📦 iStoke : Warehouse Verification App</h4>
+                <p>Mobile solution for real-time inventory verification that improved operational efficiency and reduced manual errors in warehouse workflows.</p>
+              </div>
+            </div>
+            <div class="card-cta" style="margin-top:1.2rem;font-size:0.85rem;opacity:0.7;">View Details →</div>
+          </div>
+        </div>
+
+         <!-- Additional Design Work -->
+        <div class="timeline-item reveal" data-exp="2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card ripple-host">
+            <div class="timeline-header">
+              <div>
+                <h3 class="company-name">Additional Design Work</h3>
+                <p class="job-title">UX/UI Designer | Graphics Designer</p>
+              </div>
+               </div>
+            <div class="timeline-projects">
+              <div class="exp-project" data-subexp="6">
+                <h4>🎓 Adhyantha Technologies</h4>
+                <p>Designed UX for hybrid learning platform (web + mobile).Improved course discovery and learning experience for students and professionals. Delivered complete UI and functional prototypes for development.</p>
+              </div>
+              <div class="exp-project" data-subexp="7">
+                <h4>🌐 Branding & Visual Identity Design</h4>
+                <p>Designed brand identity systems, including logos, guidelines, brochures, and marketing materials.Ensured consistent visual communication across digital and print platforms.</p>
+              </div>
+              </div>
+           <div class="card-cta" style="margin-top:1.2rem;font-size:0.85rem;opacity:0.7;">View Details →</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="section-deco deco-sphere"></div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS
+       ============================================================ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <!--
+      <div class="section-label reveal-label">03 / Projects</div>
+      <h2 class="section-title reveal-title">Featured<br/><em>Work</em></h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal" data-project="0">
+          <div class="card-glow" style="--glow:#10b981"></div>
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="card-icon">🌿</span>
+              <span class="card-tag" style="--tc:#10b981">Enterprise SaaS</span>
+            </div>
+            <h3 class="card-title">SustainOS Platform</h3>
+            <p class="card-desc">AI-Powered Carbon Emissions Monitoring Platform for multi-tenant enterprise organizations with role-based dashboards and modular reporting.</p>
+            <div class="card-tools"><span>Figma</span><span>Design System</span><span>Data Viz</span></div>
+            <div class="card-cta">View Details →</div>
+          </div>
+        </div>
+
+        <div class="project-card project-card--wide reveal" data-project="1">
+          <div class="card-glow" style="--glow:#06b6d4"></div>
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="card-icon">📱</span>
+              <span class="card-tag" style="--tc:#06b6d4">Mobile App</span>
+            </div>
+            <h3 class="card-title">SustainOS Pockets — iOS &amp; Android</h3>
+            <p class="card-desc">Mobile-first dashboard for field teams with real-time emissions data access and chatbot-driven workflows, reducing desktop dependency for distributed teams.</p>
+            <div class="card-tools"><span>Mobile UX</span><span>Chatbot UI</span><span>iOS/Android</span><span>Figma</span></div>
+            <div class="card-cta">View Details →</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-project="2">
+          <div class="card-glow" style="--glow:#6366f1"></div>
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="card-icon">🌐</span>
+              <span class="card-tag" style="--tc:#6366f1">Web Design</span>
+            </div>
+            <h3 class="card-title">NCV Corporate Website</h3>
+            <p class="card-desc">Conversion-focused responsive website communicating complex AI sustainability solutions through data storytelling and UX writing.</p>
+            <div class="card-tools"><span>UX Writing</span><span>Conversion</span><span>Figma</span></div>
+            <div class="card-cta">View Details →</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-project="3">
+          <div class="card-glow" style="--glow:#f59e0b"></div>
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="card-icon">🏙️</span>
+              <span class="card-tag" style="--tc:#f59e0b">UAE Platform</span>
+            </div>
+            <h3 class="card-title">TWG — Dubai Investment Platform</h3>
+            <p class="card-desc">Enterprise-grade investment platform for UAE holding company, showcasing portfolio companies with structured information architecture.</p>
+            <div class="card-tools"><span>Info Architecture</span><span>Luxury UX</span></div>
+            <div class="card-cta">View Details →</div>
+          </div>
+        </div>
+
+        <div class="project-card project-card--wide reveal" data-project="4">
+          <div class="card-glow" style="--glow:#8b5cf6"></div>
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="card-icon">⚙️</span>
+              <span class="card-tag" style="--tc:#8b5cf6">ERP / SaaS</span>
+            </div>
+            <h3 class="card-title">Prosol — Master Data Management SaaS</h3>
+            <p class="card-desc">ERP-style SaaS platform with component-based design system, asset management dashboards, procurement workflows, and BOM systems for Coda Technology Solutions.</p>
+            <div class="card-tools"><span>Design System</span><span>ERP UX</span><span>BOM Systems</span><span>Jira</span></div>
+            <div class="card-cta">View Details →</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-project="5">
+          <div class="card-glow" style="--glow:#ef4444"></div>
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="card-icon">🏭</span>
+              <span class="card-tag" style="--tc:#ef4444">B2B Marketplace</span>
+            </div>
+            <h3 class="card-title">Goospares Marketplace</h3>
+            <p class="card-desc">B2B industrial equipment marketplace with complete buyer/seller journey, product discovery, and transaction flow design.</p>
+            <div class="card-tools"><span>Buyer Journey</span><span>Search UX</span><span>Trust Signals</span></div>
+            <div class="card-cta">View Details →</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-project="6">
+          <div class="card-glow" style="--glow:#f97316"></div>
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="card-icon">📦</span>
+              <span class="card-tag" style="--tc:#f97316">Mobile App</span>
+            </div>
+            <h3 class="card-title">iStoke — Warehouse App</h3>
+            <p class="card-desc">Mobile solution for real-time inventory verification improving warehouse operational efficiency and reducing manual errors.</p>
+            <div class="card-tools"><span>Mobile UX</span><span>Workflow Design</span></div>
+            <div class="card-cta">View Details →</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-project="7">
+          <div class="card-glow" style="--glow:#ec4899"></div>
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="card-icon">🎓</span>
+              <span class="card-tag" style="--tc:#ec4899">Ed-Tech</span>
+            </div>
+            <h3 class="card-title">Adhyantha Learning Platform</h3>
+            <p class="card-desc">Hybrid learning platform (web + mobile) improving course discovery and learning experience for students and professionals across India.</p>
+            <div class="card-tools"><span>Ed-Tech UX</span><span>Mobile Design</span><span>Prototyping</span></div>
+            <div class="card-cta">View Details →</div>
+          </div>
+        </div>
+
+      </div> -->
+
+      <!-- ===== BEHANCE CASE STUDIES ===== -->
+      <div class="cs-header reveal" id="ux-case-studies">
+        <div class="cs-divider"></div>
+        <div class="cs-label-wrap">
+          <span class="cs-eyebrow">✦ Portfolio</span>
+          <a href="#ux-case-studies" class="cs-sub-title-link">
+            <h3 class="cs-sub-title">UX/UI Case Studies <span class="cs-anchor-icon">↓</span></h3>
+          </a>
+          <p class="cs-sub-desc">Six product design explorations — each one a full end-to-end design process from problem discovery to high-fidelity delivery.</p>
+        </div>
+      </div>
+
+      <div class="case-grid">
+
+        <!-- Case Study 1 -->
+        <div class="case-card reveal ripple-host" data-case="0">
+          <div class="case-accent" style="background: linear-gradient(135deg,#f59e0b,#ef4444)"></div>
+          <div class="case-inner">
+            <div class="case-top">
+              <span class="case-num">01</span>
+              <div class="case-badges">
+                <span class="case-badge">Mobile · iOS</span>
+                <span class="case-badge">E-Commerce</span>
+              </div>
+            </div>
+            <h4 class="case-title">ShopEase : E-Commerce Mobile UI</h4>
+            <p class="case-tagline">Reimagining fashion retail for the mobile-first shopper</p>
+            <div class="case-meta">
+              <span>Figma</span><span>2023</span><span>4 weeks</span>
+            </div>
+           <!-- <a href="https://www.behance.net/gallery/168288243/E-Commerce-Mobile-UI-Screen" target="_blank" class="case-behance" onclick="event.stopPropagation()">Behance ↗</a> -->
+            <div class="case-cta">Read Case Study →</div>
+          </div>
+        </div>
+
+        <!-- Case Study 2 -->
+        <div class="case-card reveal ripple-host" data-case="1">
+          <div class="case-accent" style="background: linear-gradient(135deg,#8b5cf6,#06b6d4)"></div>
+          <div class="case-inner">
+            <div class="case-top">
+              <span class="case-num">02</span>
+              <div class="case-badges">
+                <span class="case-badge">Mobile · iOS</span>
+                <span class="case-badge">Entertainment</span>
+              </div>
+            </div>
+            <h4 class="case-title">CinePass : Movie Ticket Booking App</h4>
+            <p class="case-tagline">Frictionless cinema booking from discovery to seat selection</p>
+            <div class="case-meta">
+              <span>Figma</span><span>2023</span><span>5 weeks</span>
+            </div>
+           <!-- <a href="https://www.behance.net/gallery/167050837/Movie-Ticket-Mobile-App-Ui-Design" target="_blank" class="case-behance" onclick="event.stopPropagation()">Behance ↗</a> -->
+            <div class="case-cta">Read Case Study →</div>
+          </div>
+        </div>
+
+        <!-- Case Study 3 -->
+        <div class="case-card reveal ripple-host" data-case="2">
+          <div class="case-accent" style="background: linear-gradient(135deg,#10b981,#06b6d4)"></div>
+          <div class="case-inner">
+            <div class="case-top">
+              <span class="case-num">03</span>
+              <div class="case-badges">
+                <span class="case-badge">Mobile App</span>
+                <span class="case-badge">E-Commerce</span>
+              </div>
+            </div>
+            <h4 class="case-title">UrbanCart : Ecommerce Mobile App</h4>
+            <p class="case-tagline">A smarter shopping experience built around browsing behaviour</p>
+            <div class="case-meta">
+              <span>Figma · Photoshop</span><span>2023</span><span>4 weeks</span>
+            </div>
+           <!-- <a href="https://www.behance.net/gallery/166388365/Ecommerce-Mobile-App-UI-Design" target="_blank" class="case-behance" onclick="event.stopPropagation()">Behance ↗</a> -->
+            <div class="case-cta">Read Case Study →</div>
+          </div>
+        </div>
+
+        <!-- Case Study 4 -->
+        <div class="case-card reveal ripple-host" data-case="3">
+          <div class="case-accent" style="background: linear-gradient(135deg,#f97316,#ef4444)"></div>
+          <div class="case-inner">
+            <div class="case-top">
+              <span class="case-num">04</span>
+              <div class="case-badges">
+                <span class="case-badge">Mobile App</span>
+                <span class="case-badge">Food Tech</span>
+              </div>
+            </div>
+            <h4 class="case-title">QuickBite : Food Delivery App</h4>
+            <p class="case-tagline">Reducing order-to-delivery friction through empathetic UX design</p>
+            <div class="case-meta">
+              <span>Adobe XD · Figma</span><span>2022</span><span>5 weeks</span>
+            </div>
+           <!-- <a href="https://www.behance.net/gallery/153520741/Food-Delivery-UI-Screen" target="_blank" class="case-behance" onclick="event.stopPropagation()">Behance ↗</a> -->
+            <div class="case-cta">Read Case Study →</div>
+          </div>
+        </div>
+
+        <!-- Case Study 5 -->
+        <div class="case-card reveal ripple-host" data-case="4">
+          <div class="case-accent" style="background: linear-gradient(135deg,#ec4899,#8b5cf6)"></div>
+          <div class="case-inner">
+            <div class="case-top">
+              <span class="case-num">05</span>
+              <div class="case-badges">
+                <span class="case-badge">Mobile · Android</span>
+                <span class="case-badge">Grocery</span>
+              </div>
+            </div>
+            <h4 class="case-title">LeeKart : Grocery Shopping App</h4>
+            <p class="case-tagline">Full UX case study for an end-to-end grocery commerce experience</p>
+            <div class="case-meta">
+              <span>Figma · Illustrator</span><span>2021–22</span><span>6 weeks</span>
+            </div>
+           <!-- <a href="https://www.behance.net/gallery/128940887/LeeKart-Mobile-App-UXUI-Design" target="_blank" class="case-behance" onclick="event.stopPropagation()">Behance ↗</a> -->
+            <div class="case-cta">Read Case Study →</div>
+          </div>
+        </div>
+
+        <!-- Case Study 6 -->
+        <div class="case-card reveal ripple-host" data-case="5">
+          <div class="case-accent" style="background: linear-gradient(135deg,#34d399,#10b981)"></div>
+          <div class="case-inner">
+            <div class="case-top">
+              <span class="case-num">06</span>
+              <div class="case-badges">
+                <span class="case-badge">Mobile App</span>
+                <span class="case-badge">AgriTech</span>
+              </div>
+            </div>
+            <h4 class="case-title">AgriGrow : Farmer Marketplace App</h4>
+            <p class="case-tagline">Empowering Indian farmers with direct market access through mobile UX</p>
+            <div class="case-meta">
+              <span>Figma · Photoshop</span><span>2021</span><span>6 weeks</span>
+            </div>
+          <!-- <a href="https://www.behance.net/gallery/130342899/AgriGrow-Mobile-app-UXUI-Design" target="_blank" class="case-behance" onclick="event.stopPropagation()">Behance ↗</a> -->
+            <div class="case-cta">Read Case Study →</div>
+          </div>
+        </div>
+
+      </div><!-- /case-grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EDUCATION
+       ============================================================ -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-label reveal-label">04 / Education</div>
+      <h2 class="section-title reveal-title">Academic<br/><em>Background</em></h2>
+      <div class="education-grid">
+        <div class="edu-card reveal ripple-host">
+          <div class="edu-orbit">
+            <div class="edu-icon-wrap">🎓</div>
+          </div>
+          <div class="edu-content">
+            <h3>Bachelor of Engineering</h3>
+            <p class="edu-field">Electronics &amp; Telecommunication Engineering</p>
+            <p class="edu-school">Karpagam College of Engineering, Coimbatore, India</p>
+            <span class="edu-year">Aug 2017 - Apr 2021</span>
+          </div>
+        </div>
+        <div class="edu-card reveal ripple-host">
+          <div class="edu-orbit">
+            <div class="edu-icon-wrap">📚</div>
+          </div>
+          <div class="edu-content">
+            <h3>Higher Secondary Certificate</h3>
+            <p class="edu-field">Science Stream</p>
+            <p class="edu-school">Sri Vidya Mandir Matric HR Sec School, Rasipuram, Namakkal</p>
+            <span class="edu-year">Jun 2016 — May 2017</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-deco deco-ring"></div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-label reveal-label">05 / Contact Us</div>
+      <h2 class="section-title reveal-title">Let's Work<br/><em>Together</em></h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="contact-tagline">Have a project in mind? Let's discuss how I can help bring your vision to life with strategic UX and polished product design.</p>
+          <div class="contact-details">
+            <a href="mailto:jithujithesh15@gmail.com" class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <span>jithujithesh15@gmail.com</span>
+            </a>
+            <a href="tel:+919524265597" class="contact-item">
+              <span class="contact-icon">📞</span>
+              <span>+91 9524265597</span>
+            </a>
+            <div class="contact-item no-link">
+              <span class="contact-icon">📍</span>
+              <span>Chennai, India</span>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="https://www.behance.net/jithujithesh1" target="_blank" class="social-btn">Behance ↗</a>
+            <a href="https://www.linkedin.com/in/srijitheshs-uxd" target="_blank" class="social-btn">LinkedIn ↗</a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" class="form-input" />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-input form-textarea" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message ✦</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-left">
+        <a href="#hero" class="footer-logo-link"><img src="image/img.png" alt="Srijithesh Shanmugam" class="footer-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" /><span class="nav-logo footer-logo-fallback" style="display:none;">SS<span class="dot">.</span></span></a>
+        <p>Srijithesh Shanmugam · Product Designer</p>
+      </div>
+      <p class="footer-copy">© 2026 Srijithesh Shanmugam. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://www.behance.net/jithujithesh1" target="_blank">Behance</a>
+        <a href="https://www.linkedin.com/in/srijitheshs-uxd" target="_blank">LinkedIn</a>
+        <a href="mailto:jithujithesh15@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       PROJECT MODAL
+       ============================================================ -->
+  <div class="modal-overlay" id="modal" role="dialog" aria-modal="true">
+    <div class="modal-container" id="modalContainer">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       IMAGE LIGHTBOX OVERLAY
+       ============================================================ -->
+  <div class="img-lightbox-overlay" id="imgLightbox" role="dialog" aria-modal="true" aria-label="Image full view">
+    <button class="img-lightbox-close" id="imgLightboxClose" aria-label="Close image">✕</button>
+    <div class="img-lightbox-inner">
+      <img src="" alt="Project full view" class="img-lightbox-img" id="imgLightboxImg" />
+    </div>
+  </div>
+
+  <!-- ============================================================
+       JAVASCRIPT
+       ============================================================ -->
+  <script>
+  /* =========================================================
+     PROJECT DATA
+
+     const projects = [
+    {
+      title: "SustainOS Platform",
+      category: "Enterprise SaaS · Web Application",
+      color: "#10b981",
+      icon: "🌿",
+      client: "Net Carbon Vision",
+      year: "2025",
+      role: "Lead Product Designer",
+      desc: "AI-Powered Carbon Emissions Monitoring Platform enabling multi-tenant enterprise organizations to monitor and report carbon emissions across complex organizational structures.",
+      highlights: [
+        "Led end-to-end UX design for multi-tenant enterprise SaaS platform",
+        "Designed role-based dashboards and modular reporting systems for diverse stakeholders",
+        "Built scalable interaction design systems reducing design inconsistencies",
+        "Delivered developer-ready Figma prototypes with annotations improving handoff efficiency"
+      ],
+      tools: ["Figma", "Miro", "Design Systems", "Data Visualization", "Jira"]
+    },
+    {
+      title: "SustainOS Pockets",
+      category: "Mobile Application · iOS & Android",
+      color: "#06b6d4",
+      icon: "📱",
+      client: "Net Carbon Vision",
+      year: "2025",
+      role: "Product Designer",
+      desc: "Mobile-first iOS & Android application enabling field teams to access real-time carbon emissions data with chatbot-driven workflows for distributed operational teams.",
+      highlights: [
+        "Designed mobile-first dashboards for field teams accessing real-time data",
+        "Introduced chatbot-driven workflows improving data access significantly",
+        "Reduced dependency on desktop tools for distributed teams",
+        "Improved reporting efficiency and accessibility across geographies"
+      ],
+      tools: ["Figma", "Mobile UX", "Chatbot UI Design", "iOS Guidelines", "Android Guidelines"]
+    },
+    {
+      title: "NCV Corporate Website",
+      category: "Web Design · AI Sustainability Platform",
+      color: "#6366f1",
+      icon: "🌐",
+      client: "Net Carbon Vision",
+      year: "2025",
+      role: "UX/UI Designer",
+      desc: "Conversion-focused responsive website communicating complex AI sustainability solutions to enterprise users through compelling data storytelling and strategic UX writing.",
+      highlights: [
+        "Designed conversion-focused responsive website for enterprise audience",
+        "Improved product messaging clarity through data storytelling techniques",
+        "Applied UX writing best practices for complex AI solution communication",
+        "Optimized information hierarchy to build enterprise user trust"
+      ],
+      tools: ["Figma", "UX Writing", "Conversion Optimization", "Responsive Design", "Sketch"]
+    },
+    {
+      title: "TWG : Dubai Investment Platform",
+      category: "Corporate Website · UAE Holding Company",
+      color: "#f59e0b",
+      icon: "🏙️",
+      client: "TWG (Dubai / UAE)",
+      year: "2025",
+      role: "UX/UI Designer",
+      desc: "Enterprise-grade investment platform for a Dubai-based holding company, showcasing multiple portfolio companies with structured information architecture and luxury UX.",
+      highlights: [
+        "Designed enterprise-grade investment platform for UAE market",
+        "Showcased multiple portfolio companies within a cohesive structure",
+        "Improved navigation clarity and user trust through structured IA",
+        "Delivered luxury-tier UX appropriate for high-net-worth audience"
+      ],
+      tools: ["Figma", "Information Architecture", "Luxury UX", "Enterprise Design", "Miro"]
+    },
+    {
+      title: "Prosol : MDM SaaS Platform",
+      category: "ERP-style SaaS · Master Data Management",
+      color: "#8b5cf6",
+      icon: "⚙️",
+      client: "Coda Technology Solutions",
+      year: "2022–2025",
+      role: "Lead Product Designer",
+      desc: "Master Data Management ERP-style SaaS platform with component-based design system, asset management dashboards, procurement workflows, and BOM systems.",
+      highlights: [
+        "Led full UX lifecycle from research through design to delivery",
+        "Designed dashboards for asset management and procurement workflows",
+        "Built component-based design system reducing design time and inconsistencies",
+        "Collaborated closely with engineering for pixel-perfect implementation"
+      ],
+      tools: ["Figma", "Design Systems", "ERP UX", "BOM Workflows", "Jira", "InVision"]
+    },
+    {
+      title: "Goospares B2B Marketplace",
+      category: "B2B Industrial Equipment Marketplace",
+      color: "#ef4444",
+      icon: "🏭",
+      client: "Coda Technology Solutions",
+      year: "2022–2024",
+      role: "Product Designer",
+      desc: "End-to-end buyer and seller journey design for B2B industrial equipment marketplace including product discovery, search optimization, and transaction flows.",
+      highlights: [
+        "Designed complete buyer and seller journeys end-to-end",
+        "Improved search efficiency for complex industrial equipment catalog",
+        "Enhanced platform trust signals increasing user confidence",
+        "Optimized product discovery and transaction completion flows"
+      ],
+      tools: ["Figma", "Buyer Journey Mapping", "Search UX", "Trust Pattern Design"]
+    },
+    {
+      title: "iStoke : Warehouse App",
+      category: "Mobile Application · Inventory Management",
+      color: "#f97316",
+      icon: "📦",
+      client: "Coda Technology Solutions",
+      year: "2023",
+      role: "UX/UI Designer",
+      desc: "Mobile solution for real-time inventory verification in warehouse environments, improving operational efficiency and reducing manual errors in complex workflows.",
+      highlights: [
+        "Designed mobile solution optimized for warehouse environment usage",
+        "Enabled real-time inventory verification across warehouse facilities",
+        "Improved operational efficiency through intuitive workflow design",
+        "Reduced manual errors via smart UX patterns and validation flows"
+      ],
+      tools: ["Figma", "Mobile UX", "Operational Workflow Design", "Sketch"]
+    },
+    {
+      title: "Adhyantha Learning Platform",
+      category: "Ed-Tech · Hybrid Web & Mobile",
+      color: "#ec4899",
+      icon: "🎓",
+      client: "Adhyantha Technologies",
+      year: "2021–2022",
+      role: "UX/UI Designer",
+      desc: "Hybrid learning platform for web and mobile improving course discovery and learning experience for students and professionals across India.",
+      highlights: [
+        "Designed UX for hybrid web + mobile learning platform",
+        "Improved course discovery experience for students and professionals",
+        "Enhanced overall learning experience through intuitive navigation",
+        "Delivered complete UI and functional prototypes ready for development"
+      ],
+      tools: ["Figma", "Ed-Tech UX", "Mobile Design", "Prototyping", "Adobe Illustrator"]
+    }
+  ];
+     ========================================================= */
+  
+
+  /* =========================================================
+     THREE.JS 3D HERO SCENE
+     ========================================================= */
+  const canvas = document.getElementById('three-canvas');
+  const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setSize(window.innerWidth, window.innerHeight);
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
+  camera.position.z = 32;
+
+  const isDark = () => document.documentElement.getAttribute('data-theme') === 'dark';
+
+  const themeColors = () => ({
+    particle:  isDark() ? 0xedd760 : 0xb8960c,
+    geo1:      isDark() ? 0x818cf8 : 0x6366f1,
+    geo2:      isDark() ? 0xf472b6 : 0xdb2777,
+    geo3:      isDark() ? 0x34d399 : 0x059669,
+    geo4:      isDark() ? 0xfbbf24 : 0xd97706,
+  });
+
+  // Particle field
+  const pCount = 1800;
+  const pGeo   = new THREE.BufferGeometry();
+  const pPos   = new Float32Array(pCount * 3);
+  for (let i = 0; i < pCount * 3; i++) pPos[i] = (Math.random() - 0.5) * 130;
+  pGeo.setAttribute('position', new THREE.BufferAttribute(pPos, 3));
+  let tc = themeColors();
+  const pMat = new THREE.PointsMaterial({ color: tc.particle, size: 0.28, transparent: true, opacity: 0.65 });
+  const pts  = new THREE.Points(pGeo, pMat);
+  scene.add(pts);
+
+
+
+  // Mouse parallax
+  let mx = 0, my = 0;
+  document.addEventListener('mousemove', e => {
+    mx = (e.clientX / window.innerWidth  - 0.5) * 2;
+    my = (e.clientY / window.innerHeight - 0.5) * 2;
+  });
+
+  // Animate
+  const clock = new THREE.Clock();
+  (function animate() {
+    requestAnimationFrame(animate);
+    const t = clock.getElapsedTime();
+    pts.rotation.y  = t * 0.025;
+    pts.rotation.x  = t * 0.008;
+    scene.rotation.y     = mx * 0.045;
+    scene.rotation.x     = -my * 0.045;
+    renderer.render(scene, camera);
+  })();
+
+  window.addEventListener('resize', () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  });
+
+  function syncThreeColors() {
+    const c = themeColors();
+    pMat.color.setHex(c.particle);
+  }
+
+  /* =========================================================
+     BEHANCE CASE STUDY DATA
+     ========================================================= */
+  const caseStudies = [
+    {
+      num: "01",
+      title: "ShopEase : E-Commerce Mobile UI",
+      subtitle: "Reimagining Fashion Retail for the Mobile-First Shopper",
+      platform: "Mobile · iOS",
+      industry: "E-Commerce / Fashion Retail",
+      role: "UX/UI Designer",
+      duration: "4 Weeks (March–April 2023)",
+      tools: ["Figma", "FigJam", "Principle"],
+      color: "#f59e0b",
+      color2: "#ef4444",
+      behanceUrl: "https://www.behance.net/gallery/168288243/E-Commerce-Mobile-UI-Screen",
+      projectImage: "image/project1.png",
+      problem: "Independent fashion retailers were losing mobile customers at alarming rates — not because their inventory wasn't competitive, but because their apps felt like afterthoughts. Product pages were cluttered, checkout flows had seven-plus steps, and size guides were buried three taps deep. The business pain was real: an estimated 67% cart abandonment rate on mobile, and a customer support backlog dominated by 'wrong size' returns that pointed squarely to a UX failure, not a logistics one.",
+      objectives: [
+        { label: "Business", items: ["Reduce cart abandonment by 25%+", "Increase average order value through smart cross-sells", "Shorten checkout to under 4 taps"] },
+        { label: "User", items: ["Make size discovery effortless and trustworthy", "Enable wishlist-to-cart journeys without re-searching", "Ensure confident, low-anxiety purchasing on mobile"] },
+        { label: "Success Metrics", items: ["Checkout completion rate", "Session depth on product pages", "Return rate linked to sizing errors"] }
+      ],
+      personas: [
+        { name: "Priya, 26", role: "Digital-native fashion shopper", pain: "Finds size charts confusing; relies on reviews for fit guidance. Abandons cart when unsure about sizing or delivery time.", goal: "Shop confidently on mobile without second-guessing herself." },
+        { name: "Ravi, 34", role: "Occasional gifter", pain: "Doesn't know where to start — overwhelmed by categories and filters. Often exits mid-session to 'think about it'.", goal: "Find the right gift quickly with minimal browsing effort." }
+      ],
+      research: "Competitor analysis covered Amazon, Myntra, and AJIO — leaders in Indian fashion e-commerce. Key gaps found: Myntra's filter UX is powerful but cognitively heavy on smaller screens; Amazon's product detail pages prioritise information density over visual trust; AJIO's checkout is smooth but lacks size confidence tools. Key insight: users trust product pages with dynamic size guides and social proof (worn-by photos) significantly more than static size charts.",
+      strategy: "IA was built around three mental modes — Browse, Compare, and Buy. The navigation flattened category depth to two taps maximum. User journey: Splash → Personalised Home → Category Browse → Smart Search → Product Detail (with size guide overlay) → Add to Cart → Streamlined 3-step Checkout → Order Confirmation with live tracking link.",
+      wireframing: "Low-fi sketches focused on the product detail page — the highest-stakes screen. Priority was given to imagery first, then trust signals (ratings, size guide, return policy), then add-to-cart CTA. The checkout was deliberately stripped to name, address autofill, and payment — reducing cognitive load at the commitment moment.",
+      uiDesign: "Colour palette: deep charcoal (#1A1A2E) with warm coral accents (#FF6B6B) — premium without feeling cold. Typography: Syne Bold for display headings (authoritative), Outfit Regular for body copy (approachable). Product photography dominates screen real estate to mimic in-store browsing. Accessibility: all tap targets ≥48px, contrast ratio 4.8:1+.",
+      features: [
+        { name: "Smart Size Guide", desc: "Overlay panel triggered from product page. Users input measurements once; system remembers and highlights their size across all products." },
+        { name: "Visual Search", desc: "Camera icon in search bar lets users upload inspiration images to find similar products — removing vocabulary barriers." },
+        { name: "Streamlined Checkout", desc: "Address autofill from saved profiles, UPI/card/COD in one tap toggle, order review collapsed to essentials. Checkout in 3 screens." },
+        { name: "Wishlist with Price Drop Alerts", desc: "Users save items and get push notifications on discounts — bringing them back at high-intent moments." }
+      ],
+      screens: [
+        { name: "Home Feed", desc: "Curated editorial banners + personalised product rows based on browse history. Category chips pinned below nav for instant filtering." },
+        { name: "Product Detail Page", desc: "Hero imagery carousel, rating bar with review count, collapsible description, and a sticky 'Add to Bag' CTA that follows scroll." },
+        { name: "Size Guide Overlay", desc: "Full-screen modal with illustrated measurement guide, metric/imperial toggle, and a 'What's my size?' input form that pre-selects recommended size." },
+        { name: "Cart & Checkout", desc: "Cart shows thumbnail, name, price and quantity adjuster in one row. Checkout splits into Delivery → Payment → Review — with a persistent progress indicator." }
+      ],
+      improvements: ["Add AR try-on for eyewear and accessories", "Integrate social proof via video reviews from real customers", "Machine learning size predictions from purchase history"],
+      outcome: ["Prototype testing with 12 users showed checkout completion improved by ~31% vs competitor benchmark", "Size-related drop-offs reduced by 40% with the Size Guide overlay", "Average session time on product pages increased by 22% due to trust-building content hierarchy"],
+      learnings: "I learned that in fashion e-commerce, trust is the real conversion lever — not speed. Users will take an extra second if it means they're confident about the product. This project taught me to design for confidence, not just convenience."
+    },
+    {
+      num: "02",
+      title: "CinePass : Movie Ticket Booking App",
+      subtitle: "Frictionless Cinema Booking from Discovery to Seat Selection",
+      platform: "Mobile · iOS",
+      industry: "Entertainment / Ticketing",
+      role: "UX/UI Designer",
+      duration: "5 Weeks (February–March 2023)",
+      tools: ["Figma", "Principle", "FigJam"],
+      color: "#8b5cf6",
+      color2: "#06b6d4",
+      behanceUrl: "https://www.behance.net/gallery/167050837/Movie-Ticket-Mobile-App-Ui-Design",
+      projectImage: "image/project2.png",
+      problem: "Cinema apps in India are a UX paradox — booking tickets should be exciting, yet most apps make it feel like filing a tax return. The dominant players (BookMyShow, PVR) pile information onto every screen. Users report frustration with multi-step seat selection flows, difficulty comparing showtimes across theatres, and checkout flows that time-out during payment — forcing a restart. For casual moviegoers who make impulsive booking decisions, this friction is enough to make them abandon and watch something at home instead.",
+      objectives: [
+        { label: "Business", items: ["Increase booking completion rate", "Reduce average booking time to under 90 seconds", "Drive add-on sales (food pre-ordering, premium seats)"] },
+        { label: "User", items: ["Make movie discovery delightful, not overwhelming", "Seat selection that's intuitive even for first-timers", "One-tap rebooking for repeat theatregoers"] },
+        { label: "Success Metrics", items: ["Booking funnel drop-off rate", "Time-to-confirm per session", "Add-on attachment rate"] }
+      ],
+      personas: [
+        { name: "Ananya, 23", role: "Spontaneous moviegoer", pain: "Decides to see a film an hour before showtime. Needs to book fast. Gets frustrated when the app asks too many questions.", goal: "Book a ticket in under 2 minutes, from deciding to confirmed." },
+        { name: "Karthik, 38", role: "Weekend family planner", pain: "Books 4–6 tickets, needs aisle seats and wants to pre-order popcorn. The current seat map is too tiny on mobile.", goal: "Plan a comfortable cinema visit for the whole family without stress." }
+      ],
+      research: "Competitive analysis across BookMyShow, PVR Cinemas, and Paytm Movies revealed a consistent pattern: all three prioritise data density over emotional engagement. Key insights: (1) Movie trailers within the app dramatically increased booking intent — users who watched a clip converted at 2.3× the rate of those who didn't. (2) Seat maps need to be zoomable and colour-differentiated by price tier. (3) The biggest abandonment spike occurred at the payment screen, suggesting trust issues with payment gateways.",
+      strategy: "Three user modes guided the IA: Discover (browsing what's on), Book (selecting show, seats, add-ons), and Re-attend (repeat booking for known theatre). The journey: Splash → Now Playing / Coming Soon → Movie Detail with Trailer → Select Theatre & Showtime → Interactive Seat Map → Add-ons (food/drinks) → Payment → E-Ticket.",
+      wireframing: "Low-fi work concentrated on the seat selection and theatre comparison screens — the two most cognitively demanding steps. The seat map was sketched at 3 different sizes before landing on a zoomable grid with colour-coded tiers. The 'Select Theatre' screen was reimagined as a card-swipe view rather than a list, allowing quicker visual scanning.",
+      uiDesign: "Dark cinema aesthetic with deep navy (#0D1117) and electric purple (#7C3AED) accents — evoking the theatrical experience. Gold highlights (#F59E0B) for premium seat tiers reinforce value hierarchy. Typography: Big Shoulders Display for film titles (bold, cinematic), Outfit for UI copy. Animated transitions between booking steps mimic a curtain reveal, adding delight without slowing flow.",
+      features: [
+        { name: "Immersive Movie Cards", desc: "Full-bleed poster backgrounds with trailer play button embedded. Scrolling the card reveals showtimes in the same motion — reducing a separate tap." },
+        { name: "Zoomable Seat Map", desc: "Pinch-to-zoom seat grid with live availability, colour-coded by price (Standard/Premium/Recliner). Selected seats animate with a 'claimed' pulse." },
+        { name: "Theatre Comparison", desc: "Side-swipe cards comparing 3 theatres by distance, screen type, and next available show — helping users decide without jumping between screens." },
+        { name: "Food Pre-Order", desc: "Positioned after seat selection as an optional upsell. Combo meal bundles with images, not just text — increasing add-on attachment." },
+        { name: "E-Ticket with Smart QR", desc: "QR code displayed on lock screen without opening the app. Ticket also added to Apple Wallet automatically after booking." }
+      ],
+      screens: [
+        { name: "Home / Now Playing", desc: "Horizontal scrollable movie cards with genre tags, ratings, and language. A 'Trending Near You' section uses location to surface popular shows nearby." },
+        { name: "Movie Detail", desc: "Fullscreen poster, trailer autoplay, cast strip, synopsis, and a persistent sticky 'Book Tickets' CTA. Reviews are surfaced as carousel quotes, not a list." },
+        { name: "Seat Selection", desc: "The centrepiece screen. Screen curve illustrated at top. Colour-coded seats, row labels on both sides, selected seat count shown in floating pill at bottom." },
+        { name: "E-Ticket", desc: "Dark ticket card design with movie poster, seat details, QR code, and venue map. Shareable via WhatsApp in one tap." }
+      ],
+      improvements: ["Introduce AI-driven recommendations based on mood/time of day", "Add group booking split-payment feature", "Augmented reality seat preview (see your view before booking)"],
+      outcome: ["Usability test with 10 participants showed average booking time reduced from 4.2 min to 1.7 min", "Seat map comprehension rated 9.1/10 vs competitor benchmark of 6.4/10", "Food pre-order add-on visibility increased conversion 28% over flat list format"],
+      learnings: "This project taught me that entertainment apps have an emotional contract with users — the design itself should feel like part of the experience. Every screen is an opportunity to build excitement, not just collect information."
+    },
+    {
+      num: "03",
+      title: "UrbanCart : Ecommerce Mobile App",
+      subtitle: "A Smarter Shopping Experience Built Around Browsing Behaviour",
+      platform: "Mobile · Android & iOS",
+      industry: "E-Commerce / Lifestyle & Electronics",
+      role: "UX/UI Designer",
+      duration: "4 Weeks (February–March 2023)",
+      tools: ["Figma", "Adobe Photoshop", "Maze"],
+      color: "#10b981",
+      color2: "#06b6d4",
+      behanceUrl: "https://www.behance.net/gallery/166388365/Ecommerce-Mobile-App-UI-Design",
+      projectImage: "image/project3.png",
+      problem: "Mid-market e-commerce apps constantly fight two enemies: feature creep from business stakeholders who want everything on the home screen, and cognitive overload for users who just want to find something they'll love. UrbanCart was conceptualised to solve a specific tension — platforms like Flipkart surface too much too fast, while niche apps feel limited. The brief called for a shopping experience that felt personally curated without the creepiness of over-personalisation.",
+      objectives: [
+        { label: "Business", items: ["Improve product discovery metrics", "Increase repeat purchase rate through browsing engagement", "Reduce return rates through better product information"] },
+        { label: "User", items: ["Find products that feel relevant without searching explicitly", "Build a trustworthy wishlist and comparison shortlist", "Quick, low-regret purchasing on mobile"] },
+        { label: "Success Metrics", items: ["Products viewed per session", "Wishlist-to-cart conversion", "Customer satisfaction score post-purchase"] }
+      ],
+      personas: [
+        { name: "Meena, 29", role: "Lifestyle shopper, value-conscious", pain: "Spends 20+ minutes browsing before finding something relevant. Feels overwhelmed by choice. Wants to see 'what's good' quickly.", goal: "Discover genuinely relevant products in under 5 minutes of browsing." },
+        { name: "Dev, 42", role: "Electronics researcher", pain: "Needs to compare specs across 3–4 products before buying. Current apps show specs buried in long descriptions.", goal: "Make an informed purchase decision without leaving the app." }
+      ],
+      research: "Analysis of Amazon, Flipkart, and Meesho revealed distinct UX patterns. Amazon over-indexes on search; Flipkart uses aggressive banners that disrupt browse flow; Meesho's social commerce model is engaging but chaotic for intent-driven shoppers. Key insight: users scan the home screen for 6–8 seconds before deciding to scroll or exit — a well-structured above-the-fold experience is more valuable than 10 extra features below it.",
+      strategy: "IA separated the app into four zones: Discover (editorial home, trending), Search (smart filters, voice), Product (comparison-first detail view), and Account (orders, wishlist, returns). The user journey deliberately slows at the product detail page — giving users richer information to reduce post-purchase regret, which directly impacts return rates.",
+      wireframing: "Prioritised the home screen and product detail page in low-fi. Home screen explored 4 layout options — single hero + cards, magazine grid, category-first, and editorial strips. The editorial strip approach won based on scannability testing. Product detail experimented with tabbed vs scrolled spec sections before settling on an accordion model.",
+      uiDesign: "Clean white with vivid saffron (#F97316) accents — warm, energetic, trustworthy. Dark card mode for premium product sections creates visual hierarchy. Typography: Syne for categories and headings, Outfit for body. Product photography occupies a 16:9 ratio frame with pinch-to-zoom on detail page. Icons from a custom set — not generic system icons — for a branded feel.",
+      features: [
+        { name: "Curated Editorial Home", desc: "Home is structured as editorial strips — 'Best in Electronics', 'Style Picks This Week' — with a fresh layout each session to reward return visits." },
+        { name: "Smart Filters with Visual Selectors", desc: "Filters use icon chips (not just text dropdowns) for colour, size, and category — reducing filter application friction by ~40% vs text-only selectors." },
+        { name: "Spec Comparison Drawer", desc: "Users can 'pin' up to 3 products while browsing. A slide-up drawer shows a side-by-side comparison table — keeping them in the browse flow." },
+        { name: "One-Tap Reorder", desc: "Past order cards in account section include a 'Reorder' button with pre-filled address and payment — completing reorders in 2 taps." }
+      ],
+      screens: [
+        { name: "Home", desc: "Top navigation with cart count + search bar. Below the fold: editorial strips with product thumbnails, ratings, and price. Promoted items clearly labelled 'Sponsored'." },
+        { name: "Category Browse", desc: "Full-width category headers, sub-category chips, and a collapsible filter sidebar that slides over rather than pushing content — preserving context." },
+        { name: "Product Detail", desc: "Image gallery, price + savings badge, star rating + review count, colour/variant selectors, accordion specs, and a persistent sticky CTA bar with Add to Cart + Wishlist." },
+        { name: "Order Confirmation", desc: "Animated success state with confetti micro-interaction. Shows estimated delivery, order number, and 'Continue Shopping' prompt to extend session." }
+      ],
+      improvements: ["Introduce ML-based 'You'll love this because...' recommendations", "Add live chat for product questions", "Dark mode for late-night shopping sessions"],
+      outcome: ["Product comparison feature reduced decision time by an estimated 35% in moderated testing", "Editorial home approach increased scroll depth by 48% vs traditional banner homepage", "Wishlist-to-cart conversion improved 22% with persistent wishlist indicators throughout browse"],
+      learnings: "I discovered that the right level of personalisation feels like a helpful friend — too much feels surveillance, too little feels irrelevant. Getting that balance required understanding the emotional state users are in when they open a shopping app."
+    },
+    {
+      num: "04",
+      title: "QuickBite : Food Delivery App",
+      subtitle: "Reducing Order-to-Delivery Friction Through Empathetic UX Design",
+      platform: "Mobile · iOS & Android",
+      industry: "Food Tech / On-Demand Delivery",
+      role: "UX/UI Designer",
+      duration: "5 Weeks (August–September 2022)",
+      tools: ["Adobe XD", "Figma", "Miro"],
+      color: "#f97316",
+      color2: "#ef4444",
+      behanceUrl: "https://www.behance.net/gallery/153520741/Food-Delivery-UI-Screen",
+      projectImage: "image/project.jpg",
+      problem: "Food delivery apps are used under conditions of urgency and hunger — two emotional states that make bad UX feel catastrophic. Platforms like Swiggy and Zomato have made great strides, but smaller regional players still struggle with discovery, customisation, and live tracking UX. QuickBite was designed to serve a tier-2 city market where users are less digitally experienced but just as hungry, and where internet connectivity is sometimes patchy. The challenge: design a food ordering experience that's forgiving, fast, and feels local.",
+      objectives: [
+        { label: "Business", items: ["Achieve 85%+ order completion rate", "Increase average order value through smart upsell timing", "Reduce delivery-related support tickets by improving live tracking clarity"] },
+        { label: "User", items: ["Find food they want in under 30 seconds", "Customise orders without confusing UI", "Know exactly where their order is without anxiety"] },
+        { label: "Success Metrics", items: ["Time from app open to order placed", "Order cancellation rate", "Live tracking interaction rate"] }
+      ],
+      personas: [
+        { name: "Lakshmi, 27", role: "Working professional, lunch orderer", pain: "Only has 15 minutes for lunch. Needs to order, confirm, and track fast. Gets stressed when the app doesn't confirm quickly.", goal: "Order lunch in under 3 minutes, confidently, every weekday." },
+        { name: "Suresh, 52", role: "First-time food app user", pain: "Not digitally native. Struggles with multi-tap customisation flows. Doesn't understand delivery time estimates.", goal: "Order his favourite biryani without calling the restaurant." }
+      ],
+      research: "Competitor analysis of Swiggy, Zomato, and Dunzo. Key findings: Swiggy's restaurant cards are informationally dense but visually competitive in testing; Zomato's rating system is trusted but its delivery time display is inconsistent; Dunzo excels at hyperlocal delivery tracking but lacks restaurant discovery. Insight: users trusted delivery time estimates more when accompanied by a 'real-time' indicator showing the driver's current step — not just a countdown.",
+      strategy: "IA prioritised the ordering loop over account management. Bottom nav: Home, Search, Orders, Profile — deliberately minimal. User journey: Location Set → Restaurant Discovery (with cuisine filters) → Restaurant Menu → Item Customisation → Cart Review → Payment → Live Tracking → Delivery Confirmation with Rating prompt.",
+      wireframing: "Low-fi work focused on the live tracking and menu screens. The tracking map was sketched as a full-screen experience rather than a card widget — because food tracking is the most anxiety-generating waiting experience in everyday apps. Menu items were designed with photo-first layouts to compensate for text-literacy variation in the target audience.",
+      uiDesign: "Warm orange (#F97316) primary with clean white surfaces — energetic and appetite-stimulating. Dark restaurant banners contrast with white menu cards for visual hierarchy. Typography: Outfit Bold for restaurant names and headings (strong, readable), Outfit Regular for item descriptions. Large hit targets (56px minimum for menu CTAs) for ease of use across age groups. High-contrast labels for dietary info (veg/non-veg icons prominent).",
+      features: [
+        { name: "Cuisine-First Discovery", desc: "Home screen leads with cuisine mood chips (Biryani, Pizza, Tiffin, Chinese) above restaurant cards — matching the mental model of 'I want X food', not 'I want restaurant Y'." },
+        { name: "Simplified Item Customisation", desc: "Customisation uses radio buttons with visual illustrations for add-ons — no nested dropdowns. Max 2 levels of choice. 'Popular Combos' pre-selects the most common customisation to speed up ordering." },
+        { name: "Animated Live Tracking Map", desc: "Full-screen map with three-stage status indicator (Order Confirmed → Being Prepared → Out for Delivery). Driver's location updates every 30 seconds with a smooth animation." },
+        { name: "Smart Cart Review", desc: "Cart shows savings from offers, applied coupon field, and a 'Frequently Added Together' section — surfacing forgotten add-ons at the right moment." }
+      ],
+      screens: [
+        { name: "Home Screen", desc: "Location bar at top. Cuisine mood chips row. Promotional banner. Restaurant cards with rating, delivery time, distance, and minimum order." },
+        { name: "Restaurant Menu", desc: "Sticky category tabs at top. Items as photo cards with name, description, price, veg/non-veg dot, and +Add CTA. Cart pill floats at bottom showing item count and total." },
+        { name: "Live Order Tracking", desc: "Map with animated driver pin, three-step status bar at top, and an ETA display. Option to call driver directly from this screen." },
+        { name: "Order History", desc: "Past orders with photo thumbnail, restaurant name, and one-tap 'Reorder' CTA. Filter by date or cuisine to find favourites fast." }
+      ],
+      improvements: ["Offline mode for menu browsing in low-connectivity areas", "Voice ordering in regional languages (Tamil, Telugu)", "Scheduled ordering for meal prep routines"],
+      outcome: ["Simulated testing showed order completion improved by 34% compared to benchmark competitor flow", "Live tracking screen interaction time increased 3× — reducing delivery anxiety and support calls", "Cuisine-first navigation reduced time-to-restaurant-selection by 42%"],
+      learnings: "Food delivery UX taught me that hunger is a time-pressured emotion — every extra second of friction costs a user's patience. But I also learned that for first-time users, clarity matters more than speed. Designing for both audiences simultaneously required careful hierarchy decisions at every screen."
+    },
+    {
+      num: "05",
+      title: "LeeKart : Grocery Shopping App",
+      subtitle: "Full UX Case Study for an End-to-End Grocery Commerce Experience",
+      platform: "Mobile · Android",
+      industry: "Grocery / Hyperlocal Commerce",
+      role: "UX/UI Designer (Full Case Study)",
+      duration: "6 Weeks (October 2021 – February 2022)",
+      tools: ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Adobe XD"],
+      color: "#ec4899",
+      color2: "#8b5cf6",
+      projectImage: "image/project7.png",
+      problem: "Grocery shopping is the most habitual of all e-commerce behaviours — people buy the same 40 items every week. Yet most grocery apps are designed as if every visit is a discovery session. LeeKart was conceptualised to serve middle-income Indian families who have moved from kirana (corner store) shopping to online, but still expect the familiarity and trust of a neighbourhood shopkeeper. The core business problem: churn after first order was 58%, because the second visit was as effortful as the first.",
+      objectives: [
+        { label: "Business", items: ["Reduce second-visit churn by 40%", "Increase average basket size through contextual upsells", "Build brand trust with first-time online grocery buyers"] },
+        { label: "User", items: ["Weekly shopping completed in under 10 minutes for repeat users", "Never miss household staples (smart list memory)", "Transparent pricing with no checkout surprises"] },
+        { label: "Success Metrics", items: ["Return user rate at 7 days", "Average items per basket", "Checkout abandonment rate"] }
+      ],
+      personas: [
+        { name: "Kavitha, 35", role: "Homemaker managing household groceries", pain: "Buys the same items weekly but has to search from scratch every time. Doesn't trust apps that show 'out of stock' at checkout — she had this happen with a competitor.", goal: "Complete her weekly shop in one quick session, reliably." },
+        { name: "Vijay, 28", role: "Bachelor professional, ad-hoc shopper", pain: "Doesn't know what he needs until he opens the fridge. Wants the app to remind him of what he usually buys when stocks run low.", goal: "Never run out of essentials — even when he forgets to plan." }
+      ],
+      research: "Deep-dive comparison of BigBasket, Blinkit, and JioMart — the three dominant grocery apps in India. BigBasket's strength: product range and subscription model; weakness: search results are cluttered with irrelevant sponsored items. Blinkit's strength: 10-minute delivery promise; weakness: poor product descriptions lead to wrong item selection. JioMart's strength: hyperlocal pricing; weakness: UI feels unpolished and slow. Core insight: the 'My Basket' (saved previous orders) feature was the most-used but least-promoted feature across all three apps.",
+      strategy: "The IA centred around the 'Smart List' concept — a persistent, auto-learning shopping list derived from order history. Primary navigation: Home (deals + featured), Categories, My List, Cart, Account. The user journey for repeat users: Open App → Smart List pre-populated → Review & Adjust → Add anything new → Checkout. Journey for new users: Onboarding with household size + dietary preferences → Recommended staples basket → Category browse → Checkout.",
+      wireframing: "Wireframing focused heavily on the Smart List screen and onboarding flow — the two highest-impact areas. Five iterations of Smart List layout were explored: simple list, card grid, category-grouped, frequency-sorted, and a hybrid category-with-frequency approach. The hybrid approach won: it mirrored how people mentally organise their shopping (dairy, vegetables, snacks) while surfacing most-bought items first within each group.",
+      uiDesign: "Fresh market palette: deep green (#065F46) for primary actions with saffron (#F59E0B) for sale/offer highlights. White cards on light grey background keep the interface clean and food-safe (food apps benefit from clinical cleanliness). Custom illustrated category icons (not stock icons) were designed in Illustrator to create a brand-owned visual language. Typography: Syne for headers, Outfit for product names and descriptions.",
+      features: [
+        { name: "Smart Grocery List", desc: "Analyses past 8 orders to build a personalised weekly basket. Items grouped by category, sorted by purchase frequency. Users can toggle items on/off rather than searching from scratch." },
+        { name: "Running Out? Alerts", desc: "Based on purchase frequency and time since last order, the app surfaces gentle push notifications: 'You usually buy rice this week — stock running low?' — driving return visits without feeling intrusive." },
+        { name: "Transparent Checkout", desc: "Itemised delivery fee breakdown, instant coupon application with savings shown in green, and an order total lock-in before payment — no price changes at the last step." },
+        { name: "Category Mega-Menu", desc: "Visual category grid (Fruits & Veg, Dairy, Snacks, Cleaning) leads to sub-category filters. Product cards include weight/volume, price per unit, and freshness date for perishables." },
+        { name: "Order Again (One-Tap)", desc: "Every past order has an 'Order Again' button that rebuilds the basket with current stock-checked items and flags anything unavailable before checkout." }
+      ],
+      screens: [
+        { name: "Onboarding", desc: "3-screen flow: household size, dietary preferences (veg/non-veg/vegan), and delivery area confirmation. Ends with a pre-built suggested basket — giving new users instant value before their first search." },
+        { name: "Home Screen", desc: "Offers banner, Smart List card shortcut, category quick-access row, 'New Arrivals' and 'Top Sellers' strips. Location and delivery slot shown prominently in header." },
+        { name: "Smart List", desc: "Category-grouped list of recurring items with stock status indicators (green/amber/red). Tick-off interaction mirrors a physical shopping list — familiar and satisfying." },
+        { name: "Product Detail", desc: "Product image, brand, weight options, price with unit cost breakdown, freshness date (for produce), and a nutritional info accordion. Add to cart with quantity stepper." },
+        { name: "Checkout", desc: "Delivery slot selector (today/tomorrow/schedule), address card, offers applied, itemised total with savings highlighted, and a single-tap payment confirmation." }
+      ],
+      improvements: ["Voice-based shopping list creation in Tamil and Hindi", "Integrate with smart home devices for automatic reorder triggers", "Community-based deals for apartment blocks ordering together"],
+      outcome: ["Smart List feature tested with 15 users reduced average shopping session from 18 minutes to 6.5 minutes for repeat buyers", "Return-visit prototype test showed 71% of users opened Smart List first on second session", "Checkout abandonment reduced 29% by removing hidden delivery fee reveal at final step"],
+      learnings: "LeeKart was the project that made me understand the power of habit design in UX. When you design for the fifth visit, not just the first, you build products people genuinely rely on. The Smart List concept came from observing a real kirana shopkeeper who knew every customer's usual order — I wanted to replicate that familiarity digitally."
+    },
+    {
+      num: "06",
+      title: "AgriGrow : Farmer Marketplace App",
+      subtitle: "Empowering Indian Farmers with Direct Market Access Through Mobile UX",
+      platform: "Mobile · Android",
+      industry: "AgriTech / Agricultural Commerce",
+      role: "UX/UI Designer (Full Case Study)",
+      duration: "6 Weeks (September–October 2021)",
+      tools: ["Figma", "Adobe Photoshop", "FigJam"],
+      color: "#34d399",
+      color2: "#10b981",
+      behanceUrl: "https://www.behance.net/gallery/130342899/AgriGrow-Mobile-app-UXUI-Design",
+      projectImage: "image/project8.png",
+      problem: "Indian farmers sell their produce through mandis (regulated markets) — a centuries-old system that, while structured, cuts their earnings by 30–50% through middlemen. AgriTech solutions exist, but most are designed by urban engineers for urban investors, not for farmers with limited smartphone literacy and inconsistent connectivity in rural areas. AgriGrow was conceptualised to bridge this gap: a marketplace where farmers list their produce directly, buyers (restaurants, retailers) place bulk orders, and payments are tracked transparently — eliminating the mandi middleman while respecting the farmer's mental model.",
+      objectives: [
+        { label: "Business", items: ["Enable direct farm-to-buyer transactions at scale", "Build credibility as a trusted rural e-commerce platform", "Reduce farmer onboarding drop-off to under 20%"] },
+        { label: "User", items: ["Farmers: List produce without needing literacy or tech confidence", "Buyers: Source verified, fresh produce at fair prices", "Both: Transparent pricing and payment tracking"] },
+        { label: "Success Metrics", items: ["Farmer onboarding completion rate", "Listing-to-order conversion rate", "Payment dispute rate (lower = better UX)"] }
+      ],
+      personas: [
+        { name: "Murugan, 48", role: "Small-scale vegetable farmer, Tamil Nadu", pain: "Not confident with smartphones. Relies on his son to use apps. Doesn't trust digital payments — has been cheated before by verbal agreements.", goal: "List his tomato and brinjal harvest and get a fair price from buyers he can trust." },
+        { name: "Deepa, 34", role: "Restaurant supply manager, Coimbatore", pain: "Current vegetable supplier is unreliable on quality and delivery timing. Wants to source directly from farms but has no direct contacts.", goal: "Source consistent, fresh produce at competitive prices with guaranteed delivery windows." }
+      ],
+      research: "Competitive research on AgroStar, DeHaat, and APMC Online portal. Key findings: AgroStar excels at input sales (seeds, fertiliser) but lacks a marketplace model; DeHaat's advisory service is strong but complex for low-literacy users; APMC Online is purely transactional with no UX consideration. Critical insight: voice-based interfaces are trusted more than text-form inputs by low-literacy rural users. Local language support is not optional — it is the product.",
+      strategy: "IA split the app into two parallel flows: Farmer View (list produce, track orders, receive payment) and Buyer View (discover produce, place bulk orders, manage suppliers). A unified dashboard shows the marketplace activity from either perspective. The farmer listing flow was designed to be completable in 4 taps with image upload and voice annotation as primary input methods.",
+      wireframing: "Low-fi focused on the farmer listing screen — the hardest UX problem. Three approaches were sketched: form-first (rejected — too text-heavy), photo-first with voice annotation (selected — most accessible), and guided wizard with one question per screen (viable alternative). The photo-first approach was validated because farmers already photograph their produce for WhatsApp — it matched an existing behaviour.",
+      uiDesign: "Earth tones grounded in nature: deep green (#065F46) with warm amber (#D97706) and clean white surfaces. The colour system deliberately mirrors the agricultural cycle — green for growth, amber for harvest. Iconography uses real-world farming objects rather than abstract UI icons. All text is designed at 16px minimum with 1.5 line-height for readability on entry-level Android phones. Supports Tamil language rendering natively in the prototype.",
+      features: [
+        { name: "Photo-First Produce Listing", desc: "Farmer taps 'List Produce', takes a photo (or uploads from gallery), and the app auto-fills crop name using image recognition. Voice note option for description. Price suggested based on live mandi rates." },
+        { name: "Live Mandi Rate Comparison", desc: "Before setting a price, farmers see the current mandi rate for their crop — giving them market context. The app shows: mandi rate, average app sale price, and recommended price." },
+        { name: "Verified Buyer Badges", desc: "Buyers go through a business verification process and display a trust badge on their profile. Farmers can see buyer rating, average order size, and payment history — reducing transaction risk." },
+        { name: "Payment Tracking Dashboard", desc: "Simple timeline view: Order Placed → Produce Dispatched → Delivered → Payment Released. UPI/bank transfer confirmation shown with a green tick. Eliminates verbal payment promises." },
+        { name: "Voice Search & Navigation", desc: "Mic button visible on every screen. Users can say 'tomato prices today' or 'list my potato harvest' in Tamil/Hindi and the app responds. Reduces literacy barrier significantly." }
+      ],
+      screens: [
+        { name: "Farmer Home", desc: "Active listings with stock level indicator (units remaining), pending orders with urgency flag, and earnings summary. Quick-action FAB: 'List New Produce'." },
+        { name: "Produce Listing Flow", desc: "Screen 1: Photo capture. Screen 2: Crop name confirmation (editable). Screen 3: Quantity and unit entry. Screen 4: Price setting with mandi reference. Screen 5: Publish confirmation." },
+        { name: "Buyer Discovery", desc: "Filter by crop type, location radius, freshness (harvest date), and minimum order quantity. Farmer profile cards show verified badge, farm location, and past buyer ratings." },
+        { name: "Order & Payment", desc: "Buyer places bulk order with delivery date. Farmer accepts/negotiates via simple approve/counter-offer interface. Payment released automatically 24 hours after delivery confirmation." },
+        { name: "Earnings Dashboard", desc: "Monthly earnings bar chart, upcoming payment dates, and a referral incentive tracker. Designed for financial confidence — farmers see exactly when money arrives." }
+      ],
+      improvements: ["Integrate crop advisory AI (weather alerts, pest warnings) within the same app", "Government scheme eligibility checker based on farmer profile", "Community forum for peer-to-peer knowledge sharing between farmers"],
+      outcome: ["Farmer listing flow tested with 8 rural users — 7 completed first listing without assistance using photo-first approach", "Buyer discovery filter reduced average time to shortlist a supplier from 12 minutes to 3.2 minutes", "Payment timeline screen rated highest trust (9.3/10) in the entire prototype — addressing the core fear of digital payment deception"],
+      learnings: "AgriGrow was the most humbling design challenge of my early career. Designing for users with limited smartphone literacy forced me to abandon every assumption I had about what 'obvious' UI patterns mean. I learned that great UX isn't about what works on Dribbble — it's about what works in a farmer's hands, in a field, on a ₹6,000 phone with a cracked screen."
+    }
+  ];
+
+  /* =========================================================
+     CASE STUDY MODAL HANDLER
+     ========================================================= */
+  document.querySelectorAll('.case-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const cs = caseStudies[+card.dataset.case];
+      const g = `linear-gradient(135deg,${cs.color},${cs.color2})`;
+
+      modalBody.innerHTML = `
+        <div class="cs-modal-hero" style="background:${g}">
+          <div class="cs-modal-num">${cs.num}</div>
+          <div class="cs-modal-platform">${cs.platform} · ${cs.industry}</div>
+          <h2 class="cs-modal-title">${cs.title}</h2>
+          <p class="cs-modal-sub">${cs.subtitle}</p>
+          <div class="cs-modal-meta-row">
+            <span>🎭 ${cs.role}</span>
+            <span>⏱ ${cs.duration}</span>
+            <span>🛠 ${cs.tools.join(' · ')}</span>
+          </div>
+        </div>
+
+        <div class="cs-modal-project-img-section">
+          <div class="cs-modal-img-wrap" data-img="${cs.projectImage || ''}">
+            <img
+              src="${cs.projectImage || 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=900&q=80'}"
+              alt="${cs.title} Project Preview"
+              class="cs-modal-project-img"
+            />
+            <div class="cs-modal-img-overlay">
+              <span class="cs-modal-img-zoom-icon">⊕ View Full Size</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cs-modal-body">
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">🚨 Problem Statement</h4>
+            <p class="cs-text">${cs.problem}</p>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">🎯 Objectives &amp; Goals</h4>
+            <div class="cs-obj-grid">
+              ${cs.objectives.map(o=>`
+                <div class="cs-obj-card">
+                  <div class="cs-obj-label">${o.label}</div>
+                  <ul>${o.items.map(i=>`<li>${i}</li>`).join('')}</ul>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">👥 Target Users</h4>
+            <div class="cs-persona-grid">
+              ${cs.personas.map(p=>`
+                <div class="cs-persona">
+                  <div class="cs-persona-name">${p.name} — ${p.role}</div>
+                  <div class="cs-persona-row"><strong>Pain:</strong> ${p.pain}</div>
+                  <div class="cs-persona-row"><strong>Goal:</strong> ${p.goal}</div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">🔍 Research &amp; Competitor Analysis</h4>
+            <p class="cs-text">${cs.research}</p>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">🧠 UX Strategy &amp; Information Architecture</h4>
+            <p class="cs-text">${cs.strategy}</p>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">✏️ Wireframing Approach</h4>
+            <p class="cs-text">${cs.wireframing}</p>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">🎨 UI Design System</h4>
+            <p class="cs-text">${cs.uiDesign}</p>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">🚀 Key Features</h4>
+            <div class="cs-features">
+              ${cs.features.map(f=>`
+                <div class="cs-feature">
+                  <div class="cs-feature-name" style="color:${cs.color}">${f.name}</div>
+                  <p>${f.desc}</p>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${cs.color}">📱 Final Screen Breakdown</h4>
+            <div class="cs-screens">
+              ${cs.screens.map((s,i)=>`
+                <div class="cs-screen">
+                  <div class="cs-screen-num" style="background:${cs.color}">${String(i+1).padStart(2,'0')}</div>
+                  <div><strong>${s.name}</strong><p>${s.desc}</p></div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="cs-section cs-two-col">
+            <div>
+              <h4 class="cs-sec-title" style="color:${cs.color}">📊 Improvements &amp; Future Vision</h4>
+              <ul class="cs-list">${cs.improvements.map(i=>`<li>${i}</li>`).join('')}</ul>
+            </div>
+            <div>
+              <h4 class="cs-sec-title" style="color:${cs.color}">📈 Simulated Outcome</h4>
+              <ul class="cs-list cs-outcome">${cs.outcome.map(o=>`<li>${o}</li>`).join('')}</ul>
+            </div>
+          </div>
+
+          <div class="cs-section cs-learnings">
+            <h4 class="cs-sec-title" style="color:${cs.color}">🧠 Key Learnings</h4>
+            <blockquote class="cs-quote" style="border-color:${cs.color}">${cs.learnings}</blockquote>
+          </div>
+       </div>
+      `;
+
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  /* =========================================================
+     EXPERIENCE DATA
+     — Each entry maps 1-to-1 with a timeline card (data-exp index).
+     — To edit a pop-up: find the matching object below and update
+       company / role / period / desc / projects / tools / image.
+     — image: path to a banner image shown at the top of the pop-up.
+              Replace with your own file, e.g. "image/ncv-banner.png".
+     ========================================================= */
+  const experiences = [
+    {
+      company: "Net Carbon Vision",
+      role: "Product Designer | UX/UI Designer",
+      period: "Mar 2025 — Present",
+      color: "#10b981",   /* primary gradient colour */
+      color2: "#06b6d4",  /* secondary gradient colour */
+      icon: "🌿",
+      image: "image/exp1.png", /* banner image — replace with your own */
+      desc: "Net Carbon Vision is a AI Powered Decarbonization Solutions & Reporting Platform. Advanced Data Driven Digital platform to streamline compliance, GHG minimization and drive carbon management programs for the path towards Carbon Neutrality / Net Zero.",
+      projects: [
+        {
+          icon: "🌿",
+          title: "SustainOS : AI Carbon Emissions",
+          detail: "Led end-to-end UX design for a multi-tenant enterprise SaaS platform, enabling organizations to monitor & report carbon emissLed the UX design for an enterprise SaaS platform that helps global organisations track and report carbon emissions. Designed easy-to-use dashboards for different users like executives, managers, and field teams. Created a scalable design system in Figma to keep designs consistent and speed up development. Delivered clear, developer-ready prototypes, reducing errors and improving implementation efficiency."
+        },
+        {
+          icon: "📱",
+          title: "SustainOS Pockets : Mobile App",
+          detail: "Designed mobile-first dashboards that let field teams easily capture and view real-time emissions data on their phones. Added chatbot-based workflows to simplify data entry, making it easier for non-technical users. Reduced reliance on desktops by enabling key tasks directly on mobile. Improved access to reports for teams working across different locations and time zones."
+        },
+        {
+          icon: "🌐",
+          title: "NCV & TWG Corporate Websites",
+          detail: "Designed responsive marketing websites that clearly explain complex AI sustainability solutions to enterprise decision-makers. Improved messaging using data storytelling, UX writing, and better information structure. Also built an investment platform website for a UAE-based firm to showcase portfolio companies to high-net-worth investors. Enhanced navigation, clarity, and trust through a well-structured layout and consistent visual design aligned with regional branding. Conversion-focused AI sustainability platform website + enterprise-grade investment platform for Dubai/UAE market with structured information architecture and user trust optimization."
+        }
+        
+      ],
+      tools: ["Figma", "Miro", "Design Systems", "Data Visualization", "Jira"]
+    },
+    {
+      company: "Coda Technology Solutions",
+      role: "Product Designer | UX/UI Designer",
+      period: "Feb 2022 — Mar 2025",
+      color: "#8b5cf6",
+      color2: "#6366f1",
+      icon: "⚙️",
+      image: "image/exp2.png",
+      desc: "CODASOL cleans, standardizes, and governs your MRO and asset master data so your maintenance, procurement, and operations teams stop firefighting and start performing.",
+      projects: [
+        {
+          icon: "⚙️",
+          title: "Prosol : Master Data Management SaaS",
+          detail: "Led the full UX process for an ERP-style platform, from research and wireframes to final prototypes and developer handoff. Designed simple, intuitive dashboards for complex tasks like asset management, procurement, and BOM systems. Created a reusable design system to keep the product consistent and speed up new feature development. Worked closely with developers in an Agile setup to ensure accurate and smooth implementation."
+        },
+        {
+          icon: "🏭",
+          title: "Goospares : B2B Industrial Marketplace",
+          detail: "Designed complete buyer and seller journeys for an industrial marketplace, covering product discovery, search, and transactions. Improved search experience to help users find products faster and more easily. Added trust elements and simplified the conversion flow, making the platform more reliable and user-friendly. This led to better user engagement and smoother overall experience."
+        },
+        {
+          icon: "📦",
+          title: "iStoke : Warehouse Verification App",
+          detail: "Designed a mobile app for real-time inventory verification in warehouses. Made it easier for teams to check and update stock instantly on the go. Reduced manual errors by simplifying the workflow and improving accuracy. Helped increase overall efficiency in day-to-day warehouse operations."
+        }
+      ],
+      tools: ["Figma", "Sketch", "InVision", "Design Systems", "ERP UX", "Jira"]
+    },
+    {
+      company: "Additional Design Work",
+      role: "UX/UI Designer | Graphics Designer",
+      period: "2021 — 2022",
+      color: "#f59e0b",
+      color2: "#ef4444",
+      icon: "🎨",
+      image: "image/exp3.png",
+      desc: "Freelance and contract design work spanning ed-tech platforms, brand identity systems, and marketing materials across digital and print.",
+      projects: [
+        {
+          icon: "🎓",
+          title: "Adhyantha Technologies",
+          detail: "Designed UX for hybrid learning platform (web + mobile). Improved course discovery and learning experience for students and professionals. Delivered complete UI and functional prototypes for development."
+        },
+        {
+          icon: "🌐",
+          title: "Branding & Visual Identity Design",
+          detail: "Designed brand identity systems, including logos, guidelines, brochures, and marketing materials. Ensured consistent visual communication across digital and print platforms."
+        }
+      ],
+      tools: ["Figma", "Adobe Illustrator", "Sketch", "Branding", "Prototyping"]
+    }
+  ];
+
+  /* =========================================================
+     THEME TOGGLE
+     ========================================================= */
+  document.getElementById('themeToggle').addEventListener('click', () => {
+    const html = document.documentElement;
+    html.setAttribute('data-theme', isDark() ? 'light' : 'dark');
+    syncThreeColors();
+  });
+
+  /* =========================================================
+     HAMBURGER MENU
+     ========================================================= */
+  const hamburger = document.getElementById('hamburger');
+  const navLinks  = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-link').forEach(l => {
+    l.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('open');
+    });
+  });
+
+  /* =========================================================
+     NAVBAR SCROLL
+     ========================================================= */
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  /* =========================================================
+     SMOOTH SCROLL
+     ========================================================= */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+    });
+  });
+
+  /* =========================================================
+     SCROLL REVEAL
+     ========================================================= */
+  const revealObs = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('revealed'), i * 80);
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+  /* =========================================================
+     3D CARD TILT
+     ========================================================= */
+  document.querySelectorAll('.project-card').forEach(card => {
+    card.addEventListener('mousemove', e => {
+      const r = card.getBoundingClientRect();
+      const rx = ((e.clientY - r.top  - r.height / 2) / r.height) * -14;
+      const ry = ((e.clientX - r.left - r.width  / 2) / r.width ) *  14;
+      card.style.transition = 'none';
+      card.style.transform  = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(12px) scale(1.01)`;
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transition = 'transform 0.55s cubic-bezier(0.23,1,0.32,1)';
+      card.style.transform  = 'perspective(900px) rotateX(0deg) rotateY(0deg) translateZ(0px) scale(1)';
+    });
+  });
+
+  /* =========================================================
+     PROJECT MODAL
+     ========================================================= */
+  const modal     = document.getElementById('modal');
+  const modalBody = document.getElementById('modalBody');
+  const modalClose = document.getElementById('modalClose');
+
+  document.querySelectorAll('.project-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const p = projects[+card.dataset.project];
+      const btnColor = p.color;
+
+      modalBody.innerHTML = `
+        <div class="modal-head">
+          <div class="modal-icon">${p.icon}</div>
+          <div>
+            <div class="modal-cat" style="color:${p.color}">${p.category}</div>
+            <h2 class="modal-title">${p.title}</h2>
+          </div>
+        </div>
+        <div class="modal-accent-bar" style="background:linear-gradient(90deg,${p.color},transparent)"></div>
+        <div class="modal-meta">
+          <div class="meta-item"><span>Client</span><strong>${p.client}</strong></div>
+          <div class="meta-item"><span>Role</span><strong>${p.role}</strong></div>
+          <div class="meta-item"><span>Year</span><strong>${p.year}</strong></div>
+        </div>
+        <p class="modal-desc">${p.desc}</p>
+        <h4 class="modal-sec-title">Key Contributions</h4>
+        <ul class="modal-list">
+          ${p.highlights.map(h => `<li>${h}</li>`).join('')}
+        </ul>
+        <h4 class="modal-sec-title">Tools &amp; Methods</h4>
+        <div class="modal-tools">
+          ${p.tools.map(t => `<span>${t}</span>`).join('')}
+        </div>
+        <a href="https://www.behance.net/jithujithesh1" target="_blank" class="modal-cta-btn"
+           style="background:${p.color};box-shadow:0 0 30px ${p.color}55">
+          View on Behance ↗
+        </a>
+      `;
+
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeModal() {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+  modalClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      closeLightbox();
+      closeModal();
+    }
+  });
+
+  /* =========================================================
+     IMAGE LIGHTBOX
+     ========================================================= */
+  const imgLightbox      = document.getElementById('imgLightbox');
+  const imgLightboxImg   = document.getElementById('imgLightboxImg');
+  const imgLightboxClose = document.getElementById('imgLightboxClose');
+
+  function openLightbox(src, alt) {
+    imgLightboxImg.src = src;
+    imgLightboxImg.alt = alt || 'Project preview';
+    imgLightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    imgLightbox.classList.remove('active');
+    if (!modal.classList.contains('active')) {
+      document.body.style.overflow = '';
+    }
+  }
+
+  imgLightboxClose.addEventListener('click', closeLightbox);
+  imgLightbox.addEventListener('click', e => { if (e.target === imgLightbox || e.target === imgLightbox.querySelector('.img-lightbox-inner')) closeLightbox(); });
+
+  /* Delegate: handle clicks on modal project images (injected dynamically) */
+  document.getElementById('modalBody').addEventListener('click', e => {
+    const wrap = e.target.closest('.cs-modal-img-wrap');
+    if (wrap) {
+      const img = wrap.querySelector('.cs-modal-project-img');
+      if (img) openLightbox(img.src, img.alt);
+    }
+  });
+
+  /* =========================================================
+     EXPERIENCE MODAL
+     — Matches the Case Study modal style:
+       gradient hero header → banner image → project cards → tools
+     ========================================================= */
+  document.querySelectorAll('.timeline-item[data-exp]').forEach(item => {
+    item.style.cursor = 'pointer';
+    item.addEventListener('click', () => {
+      const exp = experiences[+item.dataset.exp];
+      const gradient = `linear-gradient(135deg, ${exp.color}, ${exp.color2})`;
+
+      modalBody.innerHTML = `
+
+        <!-- ── Gradient hero header ── -->
+        <div class="cs-modal-hero" style="background:${gradient}">
+          <div class="cs-modal-num">${exp.icon}</div>
+          <div class="cs-modal-platform">${exp.role}</div>
+          <h2 class="cs-modal-title">${exp.company}</h2>
+          <p class="cs-modal-sub">${exp.desc}</p>
+          <div class="cs-modal-meta-row">
+            <span>📅 ${exp.period}</span>
+            <span>🛠 ${exp.tools.slice(0, 3).join(' · ')}</span>
+          </div>
+        </div>
+
+        <!-- ── Banner image (click to enlarge) ── -->
+        <div class="cs-modal-project-img-section">
+          <div class="cs-modal-img-wrap">
+            <img
+              src="${exp.image}"
+              alt="${exp.company} work preview"
+              class="cs-modal-project-img"
+              onerror="this.closest('.cs-modal-project-img-section').style.display='none'"
+            />
+            <div class="cs-modal-img-overlay">
+              <span class="cs-modal-img-zoom-icon">⊕ View Full Size</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Body ── -->
+        <div class="cs-modal-body">
+
+          <!-- Projects & Contributions -->
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${exp.color}">💼 Projects &amp; Contributions</h4>
+            ${exp.projects.map(p => `
+              <div class="exp-modal-card" style="border-left-color:${exp.color}">
+                <div class="exp-modal-card-header">
+                  <span class="exp-modal-card-icon">${p.icon}</span>
+                  <strong class="exp-modal-card-title">${p.title}</strong>
+                </div>
+                <p class="exp-modal-card-detail">${p.detail}</p>
+              </div>
+            `).join('')}
+          </div>
+
+          <!-- Tools & Methods -->
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${exp.color}">🛠 Tools &amp; Methods</h4>
+            <div class="modal-tools">
+              ${exp.tools.map(t => `<span>${t}</span>`).join('')}
+            </div>
+          </div>
+
+        </div><!-- /cs-modal-body -->
+      `;
+
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  /* =========================================================
+     SUB-PROJECT DATA
+     — One entry per exp-project card (data-subexp index 0–7).
+     — To edit a card's pop-up: find the matching object by index
+       and update title / desc / contributions / tools / image.
+     — image: path to a preview image. The banner auto-hides if
+              the file doesn't exist yet.
+     ========================================================= */
+  const subProjects = [
+
+    // ── 0 · Net Carbon Vision ────────────────────────────────
+    {
+      title: "SustainOS : AI Carbon Emissions",
+      company: "Net Carbon Vision",
+      role: "Lead Product Designer",
+      period: "Mar 2025 - Present",
+      color: "#10b981", color2: "#06b6d4",
+      icon: "🌿",
+      image: "image/exp1.png",
+      desc: "Led end-to-end UX for a multi-tenant enterprise SaaS platform enabling organizations to monitor and report carbon emissions across complex organizational structures.",
+      contributions: [
+        "Led end-to-end UX design for a multi-tenant enterprise SaaS platform, enabling global organisations to monitor, track, and report Scope 1, 2 & 3 carbon emissions across complex organisational structures.",
+        "Designed role-based dashboards and modular reporting systems, improving usability and task completion rates for C-suite executives, sustainability managers, and field operatives simultaneously.",
+        "Built a scalable, token-based design system in Figma, eliminating design inconsistencies across 20+ screens and accelerating development handoff cycles by an estimated 30%.",
+        "Delivered annotated, developer-ready Figma prototypes with component documentation, significantly improving engineering implementation accuracy and reducing review cycles."
+      ],
+      tools: ["Figma", "Miro", "Design Systems", "Data Visualization", "Jira"]
+    },
+
+    // ── 1 ────────────────────────────────────────────────────
+    {
+      title: "SustainOS Pockets : Mobile App",
+      company: "Net Carbon Vision",
+      role: "Product Designer",
+      period: "Mar 2025 - Present",
+      color: "#10b981", color2: "#06b6d4",
+      icon: "📱",
+      image: "image/exp1.png",
+      desc: "Designed mobile-first iOS & Android dashboards for field teams with real-time emissions data access and chatbot-driven workflows for distributed operational teams.",
+      contributions: [
+        "Designed mobile-first dashboards enabling distributed field teams to capture and access real-time emissions data on iOS and Android devices.",
+        "Introduced chatbot-driven workflows within the mobile app, reducing dependency on desktop tools and improving data input efficiency for non-technical users.",
+        "Enhanced reporting accessibility for operational teams across multiple time zones and geographies.",
+        ],
+      tools: ["Figma", "Mobile UX", "Chatbot UI Design", "iOS Guidelines", "Android Guidelines"]
+    },
+
+    // ── 2 ────────────────────────────────────────────────────
+    {
+      title: "NCV & TWG Corporate Websites",
+      company: "Net Carbon Vision",
+      role: "UX/UI Designer",
+      period: "Mar 2025 - Present",
+      color: "#10b981", color2: "#06b6d4",
+      icon: "🌐",
+      image: "image/exp1.png",
+      desc: "Designed a conversion-focused AI sustainability platform website and an enterprise-grade investment platform for the Dubai/UAE market, with structured information architecture and user trust optimization.",
+      contributions: [
+        "Designed a conversion-optimised, responsive marketing website communicating complex AI sustainability solutions to enterprise decision-makers.",
+        "Improved product messaging clarity through data storytelling, UX writing, and structured information architecture, resulting in a stronger enterprise value proposition.",
+        "Designed an enterprise-grade investment platform website for a UAE-based firm, showcasing multiple portfolio companies to high-net-worth investors.",
+        "Improved navigation clarity and user trust through structured IA and consistent visual hierarchy, aligned with brand guidelines for the Gulf region market."
+      ],
+      tools: ["Figma", "UX Writing", "Conversion Optimization", "Responsive Design", "Sketch"]
+    },
+
+    // ── 3 · Coda Technology Solutions ────────────────────────
+    {
+      title: "Prosol : Master Data Management SaaS",
+      company: "Coda Technology Solutions",
+      role: "Product Designer",
+      period: "Feb 2022 - Mar 2025",
+      color: "#8b5cf6", color2: "#6366f1",
+      icon: "⚙️",
+      image: "image/exp2.png",
+      desc: "Led the full UX lifecycle for an ERP-style SaaS platform with a component-based design system, asset management dashboards, procurement workflows, and BOM systems.",
+      contributions: [
+        "Led the complete UX lifecycle — discovery, user research, wireframing, high-fidelity prototyping, and developer handoff - for an ERP-style master data management platform.",
+        "Designed intuitive dashboards for asset management, procurement workflows, and Bill of Materials (BOM) systems, simplifying complex data-heavy processes for enterprise users.",
+        "Built a reusable, component-based design system that improved scalability across the product suite and reduced design-to-development time for new features.",
+        "Collaborated closely with engineering teams in an Agile/Scrum environment to ensure pixel-perfect implementation of UI components."
+      ],
+      tools: ["Figma", "Design Systems", "ERP UX", "BOM Workflows", "Jira", "InVision"]
+    },
+
+    // ── 4 ────────────────────────────────────────────────────
+    {
+      title: "Goospares : B2B Industrial Marketplace",
+      company: "Coda Technology Solutions",
+      role: "Product Designer",
+      period: "Feb 2022 - Mar 2025",
+      color: "#8b5cf6", color2: "#6366f1",
+      icon: "🏭",
+      image: "image/exp2.png",
+      desc: "Designed complete buyer and seller journeys, product discovery flows, and transaction processes for a B2B industrial equipment marketplace.",
+      contributions: [
+        "Designed end-to-end buyer and seller journeys including product discovery, search, and transaction flows for an industrial parts marketplace.",
+        "Improved search efficiency, trust signals, and conversion funnel usability, enhancing overall platform engagement."
+        ],
+      tools: ["Figma", "Buyer Journey Mapping", "Search UX", "Trust Pattern Design"]
+    },
+
+    // ── 5 ────────────────────────────────────────────────────
+    {
+      title: "iStoke : Warehouse Verification App",
+      company: "Coda Technology Solutions",
+      role: "UX/UI Designer",
+      period: "Feb 2022 - Mar 2025",
+      color: "#8b5cf6", color2: "#6366f1",
+      icon: "📦",
+      image: "image/exp2.png",
+      desc: "Designed a mobile solution for real-time inventory verification in warehouse environments, improving operational efficiency and reducing manual errors.",
+      contributions: [
+        "Designed a mobile solution for real-time inventory verification.",
+        "Improving operational efficiency and reducing manual errors in warehouse workflows."
+      ],
+      tools: ["Figma", "Mobile UX", "Operational Workflow Design", "Sketch"]
+    },
+
+    // ── 6 · Additional Design Work ───────────────────────────
+    {
+      title: "Adhyantha Technologies",
+      company: "Additional Design Work",
+      role: "UX/UI Designer",
+      period: "2021 - 2022",
+      color: "#f59e0b", color2: "#ef4444",
+      icon: "🎓",
+      image: "image/exp3.png",
+      desc: "Designed UX for a hybrid learning platform (web + mobile), improving course discovery and the learning experience for students and professionals.",
+      contributions: [
+        "Designed UX for a hybrid learning platform (web + mobile), improving course discovery and personalised learning experiences for students and professionals.",
+        "Delivered complete UI designs and functional prototypes ready for development handoff."
+      ],
+      tools: ["Figma", "Ed-Tech UX", "Mobile Design", "Prototyping", "Adobe Illustrator"]
+    },
+
+    // ── 7 ────────────────────────────────────────────────────
+    {
+      title: "Branding & Visual Identity Design",
+      company: "Additional Design Work",
+      role: "Graphics Designer",
+      period: "2021 - 2022",
+      color: "#f59e0b", color2: "#ef4444",
+      icon: "🎨",
+      image: "image/exp3.png",
+      desc: "Designed brand identity systems - logos, visual guidelines, brochures, and marketing materials - ensuring consistent visual communication across digital and print platforms.",
+      contributions: [
+        "Created brand identity systems including logos, brand guidelines, brochures, and marketing materials, ensuring consistent visual communication across digital and print platforms."
+      ],
+      tools: ["Adobe Illustrator", "Figma", "Photoshop", "Branding", "Print Design"]
+    }
+
+  ];
+
+  /* =========================================================
+     SUB-PROJECT CLICK HANDLER
+     — Fires when an individual exp-project card is clicked.
+     — e.stopPropagation() prevents the parent timeline-item
+       click from also firing (which would open the company popup).
+     ========================================================= */
+  document.querySelectorAll('.exp-project[data-subexp]').forEach(card => {
+    card.addEventListener('click', e => {
+      e.stopPropagation();
+      const sp = subProjects[+card.dataset.subexp];
+      const gradient = `linear-gradient(135deg, ${sp.color}, ${sp.color2})`;
+
+      modalBody.innerHTML = `
+
+        <!-- Gradient hero header -->
+        <div class="cs-modal-hero" style="background:${gradient}">
+          <div class="cs-modal-num">${sp.icon}</div>
+          <div class="cs-modal-platform">${sp.company} · ${sp.role}</div>
+          <h2 class="cs-modal-title">${sp.title}</h2>
+          <div class="cs-modal-meta-row">
+            <span>📅 ${sp.period}</span>
+          </div>
+        </div>
+
+        <!-- Banner image (auto-hides if file missing) -->
+        <div class="cs-modal-project-img-section">
+          <div class="cs-modal-img-wrap">
+            <img
+              src="${sp.image}"
+              alt="${sp.title} preview"
+              class="cs-modal-project-img"
+              onerror="this.closest('.cs-modal-project-img-section').style.display='none'"
+            />
+            <div class="cs-modal-img-overlay">
+              <span class="cs-modal-img-zoom-icon">⊕ View Full Size</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Body -->
+        <div class="cs-modal-body">
+
+          <div class="cs-section">
+            <p class="cs-text">${sp.desc}</p>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${sp.color}">✦ Key Contributions</h4>
+            <ul class="modal-list">
+              ${sp.contributions.map(c => `<li>${c}</li>`).join('')}
+            </ul>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-sec-title" style="color:${sp.color}">🛠 Tools &amp; Methods</h4>
+            <div class="modal-tools">
+              ${sp.tools.map(t => `<span>${t}</span>`).join('')}
+            </div>
+          </div>
+
+        </div>
+      `;
+
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+  document.getElementById('contactForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const btn = document.getElementById('submitBtn');
+    btn.textContent = 'Message Sent! ✓';
+    btn.style.background = '#10b981';
+    btn.style.boxShadow  = '0 0 30px #10b98155';
+    btn.disabled = true;
+    setTimeout(() => {
+      btn.textContent = 'Send Message ✦';
+      btn.style.background = '';
+      btn.style.boxShadow  = '';
+      btn.disabled = false;
+      e.target.reset();
+    }, 3500);
+  });
+  
+  /* =========================================================
+     SCROLL PROGRESS BAR
+     ========================================================= */
+  const scrollBar = document.getElementById('scrollProgress');
+  function updateScrollProgress() {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    scrollBar.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', updateScrollProgress, { passive: true });
+
+  /* =========================================================
+     INTERSECTION OBSERVER — REVEAL
+     ========================================================= */
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        // Staggered delay for grouped elements
+        const siblings = entry.target.closest('.container, .section') 
+          ? Array.from((entry.target.closest('.container, .section') || document.body)
+              .querySelectorAll('.reveal, .reveal-left, .reveal-right'))
+          : [];
+        const idx = siblings.indexOf(entry.target);
+        const delay = Math.min(idx * 70, 400);
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, delay);
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+    revealObserver.observe(el);
+  });
+
+  /* =========================================================
+     SECTION LABEL & TITLE OBSERVERS
+     ========================================================= */
+  const labelObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        labelObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll('.reveal-label, .reveal-title').forEach(el => {
+    el.classList.add('reveal-label-init');
+    labelObserver.observe(el);
+  });
+
+  /* =========================================================
+     HERO PARALLAX ON SCROLL
+     ========================================================= */
+  const heroContent = document.querySelector('.hero-content');
+  const heroStats   = document.querySelector('.hero-stats');
+  const heroBadge   = document.querySelector('.hero-badge');
+  const heroSection = document.getElementById('hero');
+
+  function updateHeroParallax() {
+    const scrollY = window.scrollY;
+    const heroH   = heroSection ? heroSection.offsetHeight : window.innerHeight;
+    if (scrollY > heroH) return; // stop past hero
+    const progress = scrollY / heroH;
+
+    if (heroContent) {
+      heroContent.style.transform = `translateY(${scrollY * 0.28}px)`;
+      heroContent.style.opacity   = 1 - progress * 1.6;
+    }
+    if (heroStats) {
+      heroStats.style.transform = `translateY(${scrollY * 0.18}px)`;
+      heroStats.style.opacity   = 1 - progress * 1.8;
+    }
+  }
+  window.addEventListener('scroll', updateHeroParallax, { passive: true });
+
+  /* =========================================================
+     RIPPLE CLICK ANIMATION
+     ========================================================= */
+  function attachRipple(selector) {
+    document.querySelectorAll(selector).forEach(card => {
+      card.addEventListener('pointerdown', (e) => {
+        const rect   = card.getBoundingClientRect();
+        const x      = e.clientX - rect.left;
+        const y      = e.clientY - rect.top;
+        const size   = Math.max(rect.width, rect.height) * 1.2;
+        const ripple = document.createElement('span');
+        ripple.className = 'ripple-wave';
+        ripple.style.cssText = [
+          `width:${size}px`,
+          `height:${size}px`,
+          `left:${x - size / 2}px`,
+          `top:${y - size / 2}px`
+        ].join(';');
+        card.appendChild(ripple);
+        ripple.addEventListener('animationend', () => ripple.remove());
+      });
+    });
+  }
+  attachRipple('.ripple-host');
+  attachRipple('.exp-project[data-subexp]');
+
+  /* =========================================================
+     3-D MOUSE-TRACK TILT — TIMELINE & CASE CARDS
+     ========================================================= */
+  function attachTilt(selector, maxDeg = 6, perspective = 1000) {
+    document.querySelectorAll(selector).forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const cx   = rect.left + rect.width  / 2;
+        const cy   = rect.top  + rect.height / 2;
+        const dx   = (e.clientX - cx) / (rect.width  / 2);
+        const dy   = (e.clientY - cy) / (rect.height / 2);
+        const rotY =  dx * maxDeg;
+        const rotX = -dy * maxDeg;
+        card.style.transition = 'transform 0.08s ease, box-shadow 0.35s ease, border-color 0.35s ease';
+        card.style.transform  = `perspective(${perspective}px) rotateX(${rotX}deg) rotateY(${rotY}deg) translateY(-6px)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transition = 'transform 0.45s cubic-bezier(0.22,1,0.36,1), box-shadow 0.35s ease, border-color 0.35s ease';
+        card.style.transform  = '';
+      });
+    });
+  }
+  attachTilt('.timeline-card', 5, 1000);
+  attachTilt('.case-card',     7, 900);
+  attachTilt('.edu-card',      5, 900);
+
+  </script>
+</body>
+</html>
